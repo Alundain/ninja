@@ -18,10 +18,21 @@ class Ninja {
         velocidad,
       };
     }
-  
     drinkSake() {
       this.salud += 10;
     }
+  }
+  class Sensei extends Ninja {
+      constructor (sabiduria = 10) {
+          this.sabiduria = sabiduria;
+      }
+      speakWisdom (){
+
+      }
+
+      drinkSake (){
+
+      }
   }
   
  
